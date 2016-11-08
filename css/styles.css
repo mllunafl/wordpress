@@ -1,14 +1,5 @@
 body {
     font-family: 'Noto Sans', sans-serif;
-
-}
-
-.front-page {
-  background: url("../images/crowd.jpg") #334050 fixed;
-  background-size: cover;
-  color: white;
-  margin: 0 auto;
-  overflow: hidden;
 }
 
 .header {
@@ -17,19 +8,16 @@ body {
     overflow: hidden;
 }
 
+
 .header-float-left {
   width: 80%;
   float: left;
   height: 50px;
-  overflow: hidden;
-  padding: 0;
-
 }
 
 #logo {
   display: inline-block;
   width: 30px;
-  height: auto;
   margin: 0 20px;
   padding: 10px 0;
 }
@@ -58,8 +46,17 @@ h6 {
   color: white;
   height: 50px;
   text-align: center;
-  padding: 12px 0 0;
+  padding: 12px 0 0;s
+}
+
+
+.front-page {
+  background: url("../images/crowd.jpg") #334050 fixed;
+  background-size: cover;
+  color: white;
+  margin: 0 auto;
   overflow: hidden;
+  padding: 0 0 30px 0;
 }
 
 .h1 {
@@ -101,28 +98,20 @@ h2 {
   display: inline-block;
   border: none;
   width: 100%;
-  padding: 20px;
-  /*padding: 10px 30px;*/
-  /*margin: 30px auto 180px;*/
+  padding: 15px 20px;
 }
 
 .scroll-down {
   display: block;
   width: 13%;
-  height: 20px;
-  margin: 0 auto 130px;
+  margin: 190px auto 150px;
 }
 
 .quick-features {
   display: block;
   width: 70%;
-  margin: 0 auto 20px;
+  margin: 0 auto 50px;
   overflow: hidden;
-}
-
-#last-quick {
-  margin: 0 auto 60px;
-
 }
 
 .quick-img {
@@ -135,7 +124,7 @@ h2 {
   display: inline;
   width: 80%;
   float: right;
-  padding: 20px 0;
+  padding: 0;
 }
 
 .big-text {
@@ -150,12 +139,12 @@ h2 {
 .bridge-content {
   overflow: hidden;
   background-color: #E8F0F4;
-  color: #344457;
+  color: #38495B;
   text-align: center;
   line-height: 1.5;
   padding: 30px 10px 15px;
   font-size: 22px;
-  font-weight: 100;
+  font-weight:lighter;
   clear: both;
 }
 
@@ -169,28 +158,42 @@ h2 {
   height: 195px;
   text-align: center;
   font-size: 16px;
-  padding: 0 20px 20px;
+  padding: 5px 5px 20px;
   margin: 30px 10px;
   font-weight: 100;
 }
 
+.feature-img {
+  background: #C6D2D7;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 20px 0 10px;
+  padding: 5px;
+
+}
+
 h3 {
   color: #557384;
-  font-size: 18px;
+  font-size: 20px;
   margin: 0 auto;
+  font-weight: normal;
 }
 
 h4 {
   color: #5F5F60;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: normal;
   line-height: 1.5;
-  margin: 0 auto, 30px;
+  margin: 10px auto 30px;
 }
 
-img{
+.features img{
   display: inline-block;
-  padding: 20px 0 0;
   text-align: center;
+  margin: 5px 0;
+  height: 5.5vh;
 }
 
 .button2 {
@@ -221,7 +224,7 @@ li {
   display: inline;
 }
 
-a {
+ul a {
   text-decoration: none;
   color: white;
   padding: 12px 5px;
