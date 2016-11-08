@@ -1,0 +1,234 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.front-page {
+  background: url("../images/crowd.jpg") #334050 fixed;
+  background-size: cover;
+  color: white;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header {
+    background-color: #118bc0;
+    height: 50px;
+    overflow: hidden;
+}
+
+.header-float-left {
+  width: 80%;
+  float: left;
+  height: 50px;
+  overflow: hidden;
+  padding: 0;
+
+}
+
+#logo {
+  display: inline-block;
+  width: 30px;
+  height: auto;
+  margin: 0 20px;
+  padding: 10px 0;
+}
+
+h5, h6 {
+  display: inline-block;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  color: white;
+  margin: 0 auto;
+  position: absolute;
+  top: 17px;
+}
+
+h6 {
+  color: #90CAE0;
+  left: 153px;
+}
+
+.header-float-right {
+  width: 20%;
+  float: right;
+  background-color: #0071A0;
+  font-size: 14px;
+  color: white;
+  height: 50px;
+  text-align: center;
+  padding: 12px 0 0;
+  overflow: hidden;
+}
+
+.h1 {
+  text-align: center;
+  width: 380px;
+  padding: 140px 0 0;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 100;
+  padding: 8px;
+  text-align: center;
+}
+
+.h2 {
+  text-align: center;
+  width: 260px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: 100;
+
+}
+
+.button-wrap{
+  width: 200px;
+  border: 10px solid rgba(0, 0, 0, 0.3);
+  margin: 40px auto;
+}
+
+.button1 {
+  background-color: #038DBA;
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  border: none;
+  width: 100%;
+  padding: 20px;
+  /*padding: 10px 30px;*/
+  /*margin: 30px auto 180px;*/
+}
+
+.scroll-down {
+  display: block;
+  width: 13%;
+  height: 20px;
+  margin: 0 auto 130px;
+}
+
+.quick-features {
+  display: block;
+  width: 70%;
+  margin: 0 auto 20px;
+  overflow: hidden;
+}
+
+#last-quick {
+  margin: 0 auto 60px;
+
+}
+
+.quick-img {
+  display: inline;
+  width: 10%;
+  float: left;
+}
+
+.quick-text {
+  display: inline;
+  width: 80%;
+  float: right;
+  padding: 20px 0;
+}
+
+.big-text {
+  font-size: 16px;
+}
+
+.little-text {
+  font-size: 12px;
+  padding: 10px 0;
+}
+
+.bridge-content {
+  overflow: hidden;
+  background-color: #E8F0F4;
+  color: #344457;
+  text-align: center;
+  line-height: 1.5;
+  padding: 30px 10px 15px;
+  font-size: 22px;
+  font-weight: 100;
+  clear: both;
+}
+
+.features-container {
+  background-color: #D1D3D7;
+  overflow: hidden;
+}
+
+.features {
+  background-color: white;
+  height: 195px;
+  text-align: center;
+  font-size: 16px;
+  padding: 0 20px 20px;
+  margin: 30px 10px;
+  font-weight: 100;
+}
+
+h3 {
+  color: #557384;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+h4 {
+  color: #5F5F60;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 auto, 30px;
+}
+
+img{
+  display: inline-block;
+  padding: 20px 0 0;
+  text-align: center;
+}
+
+.button2 {
+  background-color: #038DBA;
+  color: white;
+  display: block;
+  height: 50px;
+  width: 220px;
+  margin: 40px auto 0;
+  border: none;
+}
+
+.footer {
+  background-color: #000000;
+  overflow: hidden;
+
+}
+
+.footer-list-container {
+  overflow: hidden;
+  background-color: #000000;
+  font-size: 11px;
+  text-align: center;
+  margin: 20px auto 10px;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 12px 5px;
+}
+ #auto {
+   text-align: center;
+   width: 120px;
+   height: auto;
+   margin: 0 auto;
+ }
